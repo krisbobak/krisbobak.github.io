@@ -1,0 +1,13 @@
+#div_1 {
+    border: 2px solid purple;
+    padding: 24px;
+    margin: 48px;
+}
+#div_2 {
+    border: 7px dashed green;
+    padding: 12px;
+    background-color:green;
+}
+#div_3 {
+    border: 10px dotted blue;
+}
