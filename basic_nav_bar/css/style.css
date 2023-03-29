@@ -3,4 +3,19 @@ body{
 }
 nav{
     background-color: blueviolet;
+    position: sticky;
+    top: 0px
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+nav ul li{
+    font-size: 24px;
+    display: inline-block;
+    padding: 24px;
+}
+p{
+    height: 500px;
 }
