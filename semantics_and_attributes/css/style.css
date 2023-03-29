@@ -1,11 +1,11 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
 
 #header{
     color: white;
     background-color: #FA7F72;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     
 }
@@ -29,7 +29,6 @@ body{
 }
 #main{
     background-color: #F0F8FF;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 20px 10px;
 }
 #medium_heading{
@@ -64,7 +63,6 @@ hr{
 #footer{
     background-color: #FA7F72;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     padding: 20px;
     text-align: center;
