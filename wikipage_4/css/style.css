@@ -1,0 +1,74 @@
+.section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.small_heading {
+    font-family: serif;
+}
+
+.medium_heading {
+    font-family: serif;
+}
+
+.link {
+    color: #3A6BCD;
+    text-decoration: none;
+    font-family: sans-serif
+}
+
+.link :visited{
+    text-decoration: none;
+}
+
+#table{
+    background-color: #F8F9FA;
+    border: 1px solid #C8CCD0;
+    padding: 10px
+
+}
+
+.table_main{
+    background-color: #F8F9FA;
+    border: 1px solid #C8CCD0;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.table_header{
+    padding: 10px 20px;
+}
+
+.image {
+    max-width: 200px;
+}
+
+.image_container{
+    background-color: #F8F9FA;
+    border: 1px solid #C8CCD0;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
+
+}
+
+#caption {
+    font-size: 8px;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#contents {
+    font-size: 15px;
+}
