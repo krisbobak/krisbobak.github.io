@@ -48,8 +48,6 @@
     background-color: #F8F9FA;
     border: 1px solid #C8CCD0;
     padding: 10px;
-    margin-right: 20px;
-    margin-top: 15px;
 
 }
 
@@ -61,10 +59,14 @@
 
 .left {
     float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .right {
     float: right;
+    margin-left: 10px;
 }
 
 .italic {
@@ -80,10 +82,23 @@
 }
 
 .image_crest {
-    max-width: 100%;
+    max-width: 100px;
 }
 
 #brackets {
     font-size: 10px;
 }
 
+.image_container_crest{
+    background-color: #F8F9FA;
+    border: 1px solid #C8CCD0;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+#caption_crest {
+    font-size: 8px;
+    text-align: center;
+    max-width: 100px;
+}
