@@ -4,7 +4,6 @@ body{
 
 nav {
     background-color: skyblue;
-    padding: 24px;
 }
 
 ul {
@@ -17,7 +16,7 @@ ul {
 }
 
 ul li {
-    margin: 12px;
+    padding: 12px;
 }
 
 li a {
