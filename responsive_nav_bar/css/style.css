@@ -3,14 +3,16 @@ body{
 }
 
 nav {
-    background-color: skyblue;
+    background-color: #9E8672;
 }
 
 .heading_page{
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
 }
 
 ul {
+    align-items: center;
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
@@ -29,19 +31,24 @@ li a {
     font-family: sans-serif;
 }
 
-#home {
+#logo {
     margin-right: auto;
+}
+
+#logo_pic {
+    max-height: 50px;
 }
 
 .dropdown_container {
     position: relative;
+    text-align: left;
 }
 
 .dropdown_menu {
-    background-color: cornflowerblue;
+    background-color: white;
     position: absolute;
     flex-direction: column;
-    width: 100%;
+    width: 150%;
     left: 0px;
     top: 75%;
     opacity: 0;
@@ -58,14 +65,6 @@ li a {
     top: 100%;
 }
 
-
-@media screen and (max-width: 768px) {
-    ul {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-#home {
-    margin-right: 0px;
+.dropdown_menu a{
+    color: #9E8672;
 }
