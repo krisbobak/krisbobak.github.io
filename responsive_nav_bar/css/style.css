@@ -75,6 +75,7 @@ li a {
     display: flex;
     justify-content: center;
     margin: 50px 50px;
+    max-width: 1200px;
 }
 
 .section_image {
@@ -127,8 +128,6 @@ li a {
     text-align: center;
 }
 
-.image_item {
-}
 
 .row_item {
     display: flex;
