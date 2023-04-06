@@ -7,7 +7,7 @@ nav {
 }
 
 .heading_page{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "lobster";
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ ul li {
 li a {
     color: white;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Adobe Clean UX', sans-serif;
 }
 
 #logo {
@@ -67,4 +67,78 @@ li a {
 
 .dropdown_menu a{
     color: #9E8672;
+}
+
+.section_container {
+    background-color: #9E8672;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+}
+
+.section_image {
+    border-radius: 25px;
+    margin: 25px 25px;
+    object-fit: cover;
+    max-height: 250px;
+}
+
+.section_text {
+    color: white;
+    font-family: 'Adobe Clean UX', sans-serif;;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.button{
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.button_link {
+    text-decoration: none;
+    color: #9E8672;
+}
+
+.section_text h2{
+    font-family: "lobster";
+}
+
+.item {
+    box-shadow: 0px 0px 3px grey;
+    font-family: "lobster";
+    flex-direction: column;
+    justify-content: center;
+    max-width: 250px;
+    padding-top: 0px;
+    background-color: #e1dedc;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.item_heading {
+    font-family: "lobster";
+    text-align: center;
+}
+
+.image_item {
+}
+
+.row_item {
+    display: flex;
+}
+.row_item {
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
 }
