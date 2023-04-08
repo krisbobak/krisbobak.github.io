@@ -131,9 +131,10 @@ li a {
 
 .row_item {
     display: flex;
+    flex-wrap: wrap;
 }
 .row_item {
-    justify-content: center;
+    justify-content: space-around;
 }
 @media screen and (max-width: 768px) {
     ul {
