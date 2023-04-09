@@ -118,7 +118,7 @@ li a {
     justify-content: center;
     max-width: 250px;
     padding-top: 0px;
-    background-color: #e1dedc;
+    background-color: #9E8672;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -126,15 +126,15 @@ li a {
 .item_heading {
     font-family: "lobster";
     text-align: center;
+    color: white;
+    padding-top: 10px;
 }
 
 
 .row_item {
     display: flex;
     flex-wrap: wrap;
-}
-.row_item {
-    justify-content: space-around;
+    justify-content: center;
 }
 @media screen and (max-width: 768px) {
     ul {
