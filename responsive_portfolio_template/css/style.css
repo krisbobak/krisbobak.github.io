@@ -67,9 +67,6 @@ footer a:hover {
         "footer_area footer_area footer_area";
 }
 
-section{
-    border: 4px solid indigo;
-}
 
 nav{
     grid-area: nav_area;
