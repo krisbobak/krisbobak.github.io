@@ -261,3 +261,13 @@ footer ul {
         flex-direction: column;
     }
 }
+
+#three_cards,
+#two_cards {
+    flex-direction: column;
+}
+
+.card {
+    align-items: center;
+    margin: 36px 24px 0px;
+}
