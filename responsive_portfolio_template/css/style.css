@@ -300,6 +300,10 @@ footer ul {
     margin-bottom: 24px;
 }
 
+.carousel-item {
+    max-height: 400px;
+    object-fit: cover;
+}
 
 /****************************************************************************
   Media Query - Mobile Breakpoint
