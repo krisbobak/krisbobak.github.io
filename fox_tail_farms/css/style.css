@@ -16,12 +16,12 @@ h1,
 h2,
 h3,
 a {
-    font-family: 'Secular One', sans-serif;
+    font-family: "lobster";
 }
 
 h4,
 p {
-    font-family: 'Assistant', sans-serif;
+    font-family: "montserrat";
 }
 
 h1 {
@@ -41,7 +41,7 @@ a {
 nav,
 nav a,
 footer a {
-    color: indigo;
+    color: black;
 }
 
 nav a:hover,
@@ -95,13 +95,18 @@ nav{
 footer{
     grid-area: footer_area;
 }
+
+#carousel_container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 /****************************************************************************
   Nav/Footer styles
 ****************************************************************************/
 nav {
     align-items: center;
     display: flex;
-    margin: 0 24px;
+    margin: 24px 24px;
 }
 
 footer {
@@ -126,6 +131,7 @@ footer {
 nav .social_media {
     justify-content: flex-end;
     padding-left: 0;
+
 }
 
 .social_media i {
@@ -135,7 +141,7 @@ nav .social_media {
 nav,
 nav a,
 footer a {
-    color: indigo;
+    color: black;
 }
 
 nav a:hover,
@@ -165,7 +171,7 @@ footer ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../images/abstractBackground.jpg);
+    background-image: url(../images/fox_tail_hero_2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -179,8 +185,7 @@ footer ul {
 
 #hero a {
     background-color: white;
-    color: indigo;
-    border: 2px solid indigo;
+    color: white;
     border-radius: 24px;
     display: inline-block;
     padding: 8px 16px;
@@ -198,9 +203,8 @@ footer ul {
 ****************************************************************************/
 #hero a,
 .card a {
-    background-color: white;
-    color: indigo;
-    border: 2px solid indigo;
+    background-color: #e1a177;
+    color:  black;
     border-radius: 24px;
     display: inline-block;
     padding: 8px 16px;
@@ -222,21 +226,25 @@ footer ul {
     display: flex;
 }
 .card {
-    border: 2px solid indigo;
-    color: indigo;
+    border: 2px solid #e1a177;
+    color: black;
     margin: 48px 24px 24px;
     padding: 12px 12px 24px;
     text-align: center;
-    box-shadow: 4px 4px 8px 0px grey;
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
 .card p{
-    font-size: 18px;
+    font-size: 14px;
     flex: 1;
     margin-top: 0px;
+}
+
+.card_image{
+    border-radius: 10px;
+    margin: 15px;
 }
 /****************************************************************************
   Gallery styles
