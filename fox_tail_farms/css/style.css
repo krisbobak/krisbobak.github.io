@@ -133,6 +133,10 @@ footer #nav_links {
     margin-bottom: 24px;
 }
 
+#nav_links{
+    justify-content: center;
+}
+
 #nav_links,
 .social_media {
     display: flex;
@@ -175,7 +179,9 @@ footer ul {
     padding: 0;
 }
 
-
+#logo_container{
+    flex: 1;
+}
 /****************************************************************************
   Hero styles
 ****************************************************************************/
