@@ -348,6 +348,11 @@ footer ul {
         display: flex;
         flex-direction: column;
     }
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 24px;
+    }
     #three_cards,
 #two_cards {
     flex-direction: column;
