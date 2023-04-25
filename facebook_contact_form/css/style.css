@@ -21,9 +21,16 @@ body{
     box-shadow: 0px 0px 4px grey;
 }
 
+#name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
 fieldset {
     border-radius: 0px;
     border: none;
+    margin: auto;
 
 }
 
@@ -42,16 +49,28 @@ fieldset {
     display: inline-flex;
     flex-direction: column;
     margin-left: 20px;
-    margin-right: 10px;
     margin-top: 20px;
+    border-radius: 5px;
+}
+
+#first_name_flex input{
+    padding: 5px 5px;
+    border-radius: 6px;
+    border: 1px solid #999999;
 }
 
 #last_name_flex {
     display: inline-flex;
     flex-direction: column;
-    margin-right: 20px;
     margin-left: 10px;
+    margin-right: 20px;
+}
 
+#last_name_flex input{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 #contact_flex {
@@ -68,27 +87,14 @@ fieldset {
 
 #birthday_flex {
     display: flex;
-    justify-content: space-between;
-    
+    flex-direction: row;
+    justify-content:  space-between;
 }
 
 #birthday_name_flex {
     display: flex;
-    margin: 10px 20px;
+    margin: 0px 20px;
 }
-
-#month_flex input{
-    border: 1px solid green;
-}
-
-#day_flex {
-
-}
-
-#year_flex {
-
-}
-
 #gender_flex {
     display: flex;
     justify-content: space-between;
@@ -113,16 +119,14 @@ fieldset {
 }
 
 #custom {
-    border: 1px solid #999999;
+    border: 1px solid  #999999;
     border-radius: 5px;
     padding: 5px 10px
 }
 .birthday {
-    padding: 30px;
+    display: flex;
+    padding: 20px;
     top: 10px;
-    position: relative;
-    
-    
 }
 
 #year_flex option{
@@ -158,4 +162,14 @@ a {
     text-align: center;
     font-size: 10px;
     color: #1878F2;
+}
+select {
+    font-family: 'montserrat';
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: -15px 0px;
+    padding: 5px 20px;
+    border-radius: 10px;
 }
