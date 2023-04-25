@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Facebook Form</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="logo_id">
+            <img src="Images/fb_logo.svg">
+        </header>
+        <section id="flex_container">
+            <form>
+                <fieldset>
+                    <h3 id="create_account">Create A New Account</h3>
+                    <h5 id="quick">It's quick and easy.</h5>
+                    <hr>
+                    <div id="first_name_flex" class="text_inline">
+                        <input
+                            required
+                            type="text"
+                            id="first_name_id"
+                            name="first_name"
+                            placeholder="First Name">
+                    </div>
+                    <div id="last_name_flex" class="text_inline">
+                        <input
+                            required
+                            type="text"
+                            id="last_name_id"
+                            name="last_name"
+                            placeholder="Last Name">
+                    </div>
+                    <div id="contact_flex" class="text_long">
+                        <input
+                            required
+                            type="text"
+                            id="contact_id"
+                            name="contact"
+                            placeholder="Mobile Number or Email Address">
+                    </div>
+                    <div id="new_password_flex" class="text_long">
+                        <input
+                            required
+                            type="text"
+                            id="password_id"
+                            name="password"
+                            placeholder="New Password">
+                    </div>
+                    <div id="birthday_name_flex">
+                        <h5>
+                            Birthday
+                        </h5>
+                    </div>
+                    <div id="birthday_flex">
+                        <div id="month_flex" class="birthday">
+                            <select>
+                                 <option>
+                                     Aug
+                                 </option>
+                                 <option>
+                                     Sep
+                                 </option>
+                                 <option>
+                                     Oct
+                                 </option>
+                            </select>
+                         </div>
+                         <div id="day_flex" class="birthday">
+                             <select>
+                                 <option>
+                                     11th
+                                 </option>
+                                 <option>
+                                     12th
+                                 </option>
+                                 <option>
+                                     13th
+                                 </option>
+                             </select>
+                         </div>
+                         <div id="year_flex" class="birthday">
+                             <select>
+                                 <option>
+                                     2019
+                                 </option>
+                                 <option>
+                                     2020
+                                 </option>
+                                 <option>
+                                     2021
+                                 </option>
+                             </select>
+                         </div>
+                    </div>
+                    <div id="gender_choice_flex">
+                        <h5>
+                            Gender
+                        </h5>
+                    </div>
+                    <div id="gender_flex">
+                        <div id="male">
+                            <input type="radio" id="male_radio" name="gender" value="male" required>
+                            <label for="male_radio">Male</label>
+                        </div>
+                        <div id="female">
+                            <input type="radio" id="female_radio" name="gender" value="female" required>
+                            <label for="female_radio">Female</label>
+                        </div>
+                        <div id="custom">
+                            <input type="radio" id="custom_radio" name="gender" value="custom" required>
+                            <label for="custom_radio">Custom</label>
+                        </div>
+                    </div>
+                    <div id="fine_print" class="fine_print">
+                        <p>
+                        People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn More</a>
+                        </p>
+                    </div>
+                    <div id="terms" class="fine_print">
+                        <p>
+                            By clicking Sign Up, you agree to our <a href="#">Terms, Privacy Policy</a> and <a href="#">Cookies Policy.</a> You may receive SMS Notifications from us and can opt out at anytime.
+                        </p>
+                    </div>
+                    <div id="button">
+                        <input
+                            type="button"
+                            value="Sign Up">
+                    </div>
+                    <div id="already">
+                        <h2>
+                            Already have an account?
+                        </h2>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>

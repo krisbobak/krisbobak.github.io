@@ -1,0 +1,161 @@
+body{
+    font-family: 'montserrat';
+    background-color: #F0F3F5;
+}
+
+#logo_id {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+#flex_container {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px grey;
+}
+
+fieldset {
+    border-radius: 0px;
+    border: none;
+
+}
+
+#create_account{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#quick {
+    text-align: center;
+    color: #90959D;
+
+}
+#first_name_flex {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#last_name_flex {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+#contact_flex {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+#new_password_flex {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+#birthday_flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#birthday_name_flex {
+    display: flex;
+    margin: 10px 20px;
+}
+
+#month_flex input{
+    border: 1px solid green;
+}
+
+#day_flex {
+
+}
+
+#year_flex {
+
+}
+
+#gender_flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+#gender_choice_flex {
+    display: flex;
+    margin: 10px 20px;
+}
+
+#male {
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+
+#female {
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+
+#custom {
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+.birthday {
+    padding: 30px;
+    top: 10px;
+    position: relative;
+    
+    
+}
+
+#year_flex option{
+    padding: 10px;
+
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+#button input {
+    background-color: #00A401;
+    border: none;
+    border-radius: 13px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 65px;
+}
+
+.fine_print {
+    font-size:10px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#already {
+    text-align: center;
+    font-size: 10px;
+    color: #1878F2;
+}
