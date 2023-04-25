@@ -67,10 +67,9 @@ fieldset {
 }
 
 #last_name_flex input{
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 20px;
+   padding: 5px 5px;
+    border-radius: 6px;
+    border: 1px solid #999999;
 }
 
 #contact_flex {
@@ -79,10 +78,21 @@ fieldset {
     margin: 10px 20px;
 }
 
+#contact_flex input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+} 
 #new_password_flex {
     display: flex;
     flex-direction: column;
     margin: 10px 20px;
+}
+
+#new_password_flex input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #999999;
 }
 
 #birthday_flex {
@@ -171,5 +181,6 @@ select {
     justify-content: center;
     margin: -15px 0px;
     padding: 5px 20px;
-    border-radius: 10px;
+    border-radius: 6px;
+    border: 1px solid #999999;
 }
