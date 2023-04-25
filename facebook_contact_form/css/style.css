@@ -24,7 +24,7 @@ body{
 #name {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     margin: auto;
 }
 fieldset {
@@ -103,7 +103,7 @@ fieldset {
 
 #birthday_name_flex {
     display: flex;
-    margin: 0px 20px;
+    margin: -15px 20px;
 }
 #gender_flex {
     display: flex;
@@ -113,23 +113,26 @@ fieldset {
 
 #gender_choice_flex {
     display: flex;
-    margin: 10px 20px;
+    margin: -15px 20px;
 }
 
 #male {
     border: 1px solid #999999;
+    font-size: 15px;
     border-radius: 5px;
     padding: 5px 10px
 }
 
 #female {
     border: 1px solid #999999;
+    font-size: 15px;
     border-radius: 5px;
     padding: 5px 10px
 }
 
 #custom {
     border: 1px solid  #999999;
+    font-size: 15px;
     border-radius: 5px;
     padding: 5px 10px
 }
