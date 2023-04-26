@@ -62,6 +62,8 @@ nav #nav_log_in {
 #nav_log_in h2{
     font-size: 15px;
     color: white;
+    font-weight: 600;
+    opacity: 70%;
 }
 
 nav #nav_logo,
@@ -93,6 +95,7 @@ nav #nav_log_in {
     color: black;
     padding: 10px 300px;
     margin-top: 30px;
+    font-weight: 600;
 }
 
 #hero_content img {
@@ -141,6 +144,7 @@ nav #nav_log_in {
     background-color: black;
     color: white;
     padding: 10px 20px;
+    font-weight: 600;
 }
 
 a {
@@ -169,4 +173,18 @@ a {
 
 #bundle_button{
     margin-right: 40px;
+    justify-content: flex-end;
+}
+
+#four_cards {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+#tv{
+    background-image: url(../Images/bobsburgers.jpeg);
+    background-position: center;
+    object-fit: scale-down;
+
 }
