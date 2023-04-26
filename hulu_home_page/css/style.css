@@ -8,69 +8,45 @@ body {
     background-color: black;
 }
 
-#site_grid {
-    display: grid;
-    grid-template-columns: 1fr 800px 1fr;
-    grid-auto-rows: minmax(50px, auto);
-    grid-template-areas: 
-        "nav_area nav_area nav_area"
-        "hero_area hero_area hero_area"
-        ". four_card_area .";
-}
-
-nav {
-    grid-area: nav_area;
-}
-
-#hero_content {
-    grid-area: hero_area;
-}
-
-#four_cards {
-    grid-area: four_card_area;
-}
-
 /* NAV STYLE */
+#logo {
+    max-width: 60px;
+}
 
-nav {
+#hero_content nav li {
+    padding: 24px 36px;
+}
+
+#hero_content nav{
+    display: flex;
+    align-items: flex-end;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    display: flex;
-    margin: 0 24px;
-    background-color: black;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
-nav #nav_log_in {
-    justify-content: flex-end;
-    padding-left: 0;
+nav img {
+    width: 60px;
 }
 
-#nav_logo,
-#nav_log_in {
-    display: flex;
-}
-
-#nav_logo {
-    display: flex;
-    justify-content: flex-start;
-}
-
-#nav_logo img {
-    max-width: 50px;
-}
-
-#nav_log_in h2{
-    font-size: 15px;
+nav a {
+    display: inline-block;
     color: white;
-    font-weight: 600;
-    opacity: 70%;
+    justify-content: flex-end;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
 }
 
-nav #nav_logo,
-nav #nav_log_in {
-    flex: 1;
-    margin: 0;
-    padding: 0;
+nav a:hover {
+    background-color: rgb(93, 92, 92);
 }
 
 #hero_content {
@@ -83,7 +59,7 @@ nav #nav_log_in {
     background-image: url(../Images/hulu-bg.jpeg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:local;
     flex-direction: column;
     color: white;
 }
@@ -106,6 +82,7 @@ nav #nav_log_in {
     font-size: 15px;
     color: #1DE783;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 #bundle_pic {
@@ -123,7 +100,7 @@ nav #nav_log_in {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     bottom: 0;
     padding: 20px 20px;
@@ -163,7 +140,8 @@ a {
     font-size: 12px;
     margin-top: 10px;
 }
- #hulu_link {
+
+#hulu_link {
     font-size: 15px;
 }
 
@@ -179,12 +157,40 @@ a {
 #four_cards {
     display: flex;
     flex-direction: row;
-    height: 400px;
+    justify-content: center;
+    height: 900px;
 }
 
 #tv{
     background-image: url(../Images/bobsburgers.jpeg);
     background-position: center;
-    object-fit: scale-down;
-
+    background-size: contain;
 }
+
+#movies {
+    background-image: url(../Images/bobsburgers.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+#originals {
+    background-image: url(../Images/bobsburgers.jpeg);
+    background-position: center;
+    background-size: contain;    
+}
+
+#premiums {
+    background-image: url(../Images/bobsburgers.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+ #card_header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
