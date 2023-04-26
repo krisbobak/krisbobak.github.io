@@ -10,6 +10,7 @@
 
 body {
     margin: 0;
+    
 }
 
 h1,
@@ -168,8 +169,6 @@ footer ul {
     background-image: url(../images/abstractBackground.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-
 }
 
 #hero h1,
