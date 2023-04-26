@@ -14,7 +14,8 @@ body {
     grid-auto-rows: minmax(50px, auto);
     grid-template-areas: 
         "nav_area nav_area nav_area"
-        "hero_area hero_area hero_area";
+        "hero_area hero_area hero_area"
+        ". four_card_area .";
 }
 
 nav {
