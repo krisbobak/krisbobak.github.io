@@ -73,6 +73,7 @@ nav #nav_log_in {
 
 #hero_content {
     height: 80vh;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +92,7 @@ nav #nav_log_in {
     border-radius: 5px;
     color: black;
     padding: 10px 300px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #hero_content img {
@@ -102,4 +103,70 @@ nav #nav_log_in {
     font-size: 15px;
     color: #1DE783;
     margin-bottom: 20px;
+}
+
+#bundle_pic {
+    max-width: 350px;
+    margin-left: 40px;
+}
+
+#banner_type {
+    font-weight:300;
+    opacity: 100%;
+}
+
+#transparent_background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px;
+    margin: 0;
+    width: 100%;
+}
+
+#bottom_text {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+#bundle_button input{
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+a {
+    color: white;
+}
+
+#links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#terms_apply_main {
+    font-size: 12px;
+}
+
+#terms_apply_bundle{
+    font-size: 12px;
+    margin-top: 10px;
+}
+ #hulu_link {
+    font-size: 15px;
+}
+
+#banner_type {
+    font-size: 25px;
+}
+
+#bundle_button{
+    margin-right: 40px;
 }
