@@ -12,8 +12,6 @@ body {
 a {
     color: white;
 }
-/* GRID STYLES */
-
 
 /* NAV STYLES */
 
@@ -108,9 +106,34 @@ nav a:hover {
     opacity: 70%;
 }
 
-#email_form {
-    width: 750px;
+#email{
+    background-color: #30333E;
+    border: #30333E;
+    border-radius: 3px 0px 0px 3px;
+    color: #5C5D60;
+    padding: 10px;
+    width: 550px;
+    margin-right: 0px;
 }
+
+#email_form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#and_more {
+    margin-bottom: 40px;
+}
+
+#bundle_button {
+    background-color: #0361E5;
+    border-radius: 3px;
+    color: white;
+    border: #0361E5;
+    padding: 10px;
+    margin-left: 0px;
+}
+
 
 /* CARD STYLES */
 
@@ -184,7 +207,8 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
 }
 
 #logo_footer {
@@ -192,18 +216,21 @@ footer {
     width: 100px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 footer img{
     justify-content: center;
 }
 
- footer li{
+footer li{
     display: inline-flex;
-    margin: 0px 10px;
+    margin: 0px 15px;
+    font-weight: 100;
+    opacity: 75%;
  }
 
- footer ul {
+footer ul {
     display: flex;
     justify-content: center
  }
@@ -219,4 +246,12 @@ footer p {
 #row_3 {
     display: flex;
     justify-content: center;
+    font-size: 15px;
+    opacity: 75%;
+    margin-top: 20px;
+}
+
+#copyright {
+    opacity: 75%;
+    margin-top: 20px;
 }
