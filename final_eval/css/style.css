@@ -109,7 +109,7 @@ nav a:hover {
 #email{
     background-color: #30333E;
     border: #30333E;
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 3px;
     color: #5C5D60;
     padding: 10px;
     width: 550px;
@@ -164,32 +164,32 @@ nav a:hover {
 
 #wakanda {
     grid-area: wakanda_area;
-    background-image: url(../IMages/wakandaForever.jpg)
+    background-image: url(../Images/wakandaForever.jpg)
 }
 
 #andor {
     grid-area: andor_area;
-    background-image: url(../IMages/andor.jpg)
+    background-image: url(../Images/andor.jpg)
 }
 
 #turning_red {
     grid-area: turning_red_area;
-    background-image: url(../IMages/turningRed.jpg);
+    background-image: url(../Images/turningRed.jpg);
 }
 
 #fire_of_love {
     grid-area: fire_of_love_area;
-    background-image: url(../IMages/fireOfLove.jpg)
+    background-image: url(../Images/fireOfLove.jpg)
 }
 
 #encanto {
     grid-area: encanto_area;
-    background-image: url(../IMages/encanto.jpg)
+    background-image: url(../Images/encanto.jpg)
 }
 
 #zootopia_plus {
     grid-area: zootopia_plus_area;
-    background-image: url(../IMages/zootopiaPlus.jpg)
+    background-image: url(../Images/zootopiaPlus.jpg)
 }
 
 .card {
@@ -203,6 +203,12 @@ nav a:hover {
 
 /* FOOTER STYLES */
 
+select {
+    color: white;
+    background-color:  #050714;
+    border: 1px solid #050714;
+    font-size: 18px;
+}
 footer {
     display: flex;
     flex-direction: column;
@@ -216,7 +222,7 @@ footer {
     width: 100px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 footer img{
@@ -254,4 +260,93 @@ footer p {
 #copyright {
     opacity: 75%;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    nav li {
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        text-align: center;
+        
+    }
+
+    #sign_up {
+        margin-bottom: 10px;
+    }
+
+    #hero_container img {
+        max-width: 400px;
+    }
+
+    #email_form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email {
+        max-width: 250px;
+    }
+
+    #six_cards {
+        display: grid;
+        grid-template-areas: 
+        "wakanda_area" 
+        "andor_area" 
+        "turning_red_area"
+        "fire_of_love_area" 
+        "encanto_area" 
+        "zootopia_plus_area";
+        margin: auto;
+    }
+    
+    #tabs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+    }
+
+   footer {
+    align-items: center;
+   }
+    
+    footer ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer li {
+        margin-bottom: 10px;
+    }
+
+    #logo_footer {
+        align-items: center;
+        margin: auto 20px;
+    }
+     #row_3 {
+        font-size: 10px;
+     }
 }
