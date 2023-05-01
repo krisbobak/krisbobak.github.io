@@ -1,0 +1,222 @@
+/* UNIVERSAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: #050714;
+}
+
+a {
+    color: white;
+}
+/* GRID STYLES */
+
+
+/* NAV STYLES */
+
+#logo {
+    width: 80px;
+}
+
+nav li {
+    padding: 24px 36px;
+}
+
+#hero_content nav{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+#sign_up {
+    background-color: #0162E5;
+    border: 1px solid #0162E5;
+}
+
+#log_in {
+    border: 1px solid;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    justify-content: flex-end;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+
+
+nav img {
+    width: 60px;
+}
+
+nav #nav_buttons {
+    display: inline-block;
+    color: white;
+    justify-content: flex-end;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: rgb(93, 92, 92);
+}
+/* HERO STYLES */
+
+#hero_content {
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../Images/backgroundLarge.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:local;
+    flex-direction: column;
+    color: white;
+}
+
+#disney_and_more {
+    max-width: 750px;
+}
+
+#hero_content h3 {
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 70%;
+}
+
+#hero_content h4 {
+    font-size: 13px;
+    font-weight: normal;
+    opacity: 70%;
+}
+
+#email_form {
+    width: 750px;
+}
+
+/* CARD STYLES */
+
+#six_cards_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#tabs {
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#tabs h1 {
+    margin: 70px 40px;
+    font-weight: 100;
+}
+
+#six_cards {
+    display: grid;
+    grid-template-areas: 
+    "wakanda_area andor_area turning_red_area"
+    "fire_of_love_area encanto_area zootopia_plus_area";
+    margin: auto;
+}
+
+#wakanda {
+    grid-area: wakanda_area;
+    background-image: url(../IMages/wakandaForever.jpg)
+}
+
+#andor {
+    grid-area: andor_area;
+    background-image: url(../IMages/andor.jpg)
+}
+
+#turning_red {
+    grid-area: turning_red_area;
+    background-image: url(../IMages/turningRed.jpg);
+}
+
+#fire_of_love {
+    grid-area: fire_of_love_area;
+    background-image: url(../IMages/fireOfLove.jpg)
+}
+
+#encanto {
+    grid-area: encanto_area;
+    background-image: url(../IMages/encanto.jpg)
+}
+
+#zootopia_plus {
+    grid-area: zootopia_plus_area;
+    background-image: url(../IMages/zootopiaPlus.jpg)
+}
+
+.card {
+    width: 315px;
+    height: 189px;
+    background-size: contain;
+    border-radius: 5px;
+    
+    margin: 15px 15px;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+#logo_footer {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    justify-content: center;
+}
+
+ footer li{
+    display: inline-flex;
+    margin: 0px 10px;
+ }
+
+ footer ul {
+    display: flex;
+    justify-content: center
+ }
+
+footer a{
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
+}
+
+#row_3 {
+    display: flex;
+    justify-content: center;
+}

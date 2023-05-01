@@ -85,11 +85,11 @@
 
 /* Task 20 - Write your code solution below */
     
-    #t20_continer {
+    #t20_container {
         display: grid;
         grid-template-areas: 
-        "cell4 cell4"
-        "cell5 cell6";
+        "cell5 cell6"
+        "cell4 cell4";
     }
 
     #t20_cell_1 {

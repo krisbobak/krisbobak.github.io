@@ -1,28 +1,74 @@
 /* Task 21 - Write your code solution below */
-
+    #t21_container {
+        display: inline-flex;
+ }
 
 /* Task 22 - Write your code solution below */
-
+    #t22_container {
+         display: inline-flex;
+ }
 
 /* Task 23 - Write your code solution below */
-
+    #t23_container {
+        display: flex;
+        flex-direction: column;
+}
 
 /* Task 24 - Write your code solution below */
-
+    #t24_container{
+        display: flex;
+        align-items: center;
+    }
 
 /* Task 25 - Write your code solution below */
-
+    #t25_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
 
 /* Task 26 - Write your code solution below */
-
+    #t26_container {
+        display: flex;
+        justify-content: space-between;
+    }
 
 /* Task 27 - Write your code solution below */
-
+    #t27_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
 /* Task 28 - Write your code solution below */
+    #t28_container {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    #t28_box2 {
+        width: 50%;
+    }
 
 /* Task 29 - Write your code solution below */
+    #t29_container {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    #t29_box1 {
+        width: 50%;
+    }
 
 /* Task 30 - Write your code solution below */
+    #t30_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #t30_container div {
+        flex:1;
+        box-sizing: border-box;
+        width: 50%;
+    }
