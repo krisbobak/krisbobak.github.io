@@ -1,19 +1,105 @@
 /* Task 14 - Write your code solution below */
-
+    #t14_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 /* Task 15 - Write your code solution below */
-
+    
+     #t15_container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
 
 /* Task 16 - Write your code solution below */
 
+    #t16_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
 /* Task 17 - Write your code solution below */
+    
+    #t17_container {
+        display: grid;
+        grid-template-areas: 
+        "cell2 cell3 cell1";
+    }
 
+    #t17_cell_3 {
+        grid-area: cell3;
+    }
+
+    #t17_cell_2 {
+        grid-area: cell2;
+    }
+
+    #t17_cell_1 {
+        grid-area: cell1;
+    }
 
 /* Task 18 - Write your code solution below */
 
+    #t18_container {
+        display: grid;
+        grid-template-areas: 
+        "cell1_18 cell1_18 cell1_18"
+        "cell3_18 cell2_18 cell2_18";
+    }
+
+    #t18_cell_1 {
+        grid-area: cell1_18;
+    }
+
+    #t18_cell_2 {
+        grid-area: cell2_18;
+    }
+
+    #t18_cell_3 {
+        grid-area: cell3_18;
+    }
+    
 
 /* Task 19 - Write your code solution below */
+    
+    #t19_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
 
+    #t19_cell_1 {
+        max-width: 200px;
+    }
+
+    #t19_cell_2 {
+        max-width: 200px;
+    }
+
+    #t19_cell_3 {
+        max-width: 200px;
+    }
+
+    #t19_cell_4 {
+        max-width: 200px;
+    }
 
 /* Task 20 - Write your code solution below */
+    
+    #t20_continer {
+        display: grid;
+        grid-template-areas: 
+        "cell4 cell4"
+        "cell5 cell6";
+    }
+
+    #t20_cell_1 {
+        grid-area: cell4;
+    }
+
+    #t20_cell_2 {
+        grid-area: cell5;
+    }
+
+    #t20_cell_3 {
+        grid-area: cell6;
+    }
