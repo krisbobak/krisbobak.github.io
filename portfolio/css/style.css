@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Secular+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 * {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
 }
 /* GRID */
 #site_grid {
@@ -33,12 +37,19 @@ footer{
 
 /* NAV/FOOTER */
 nav{
-    margin: 0 24px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b8bee;
+    font-family: 'montserrat';
+    font-size: 12px;
+    padding: 10px 0px;
 }
 
 #nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     list-style-type: none; 
 }
 
@@ -46,15 +57,73 @@ nav{
     margin: 0px 24px;
 }
 
+#kb_full_logo {
+    margin: 0 24px;
+}
 footer {
     margin: 0 24px;
 }
 
-#footer {
+#footer_nav {
     display: flex;
-    justify-content: center;
+    list-style-type: none; 
 }
 
 .nav_footer {
     list-style-type: none;
+    display: flex;
+}
+
+/* TEXT STYLES */
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HERO STYLES */
+
+#hero {
+    min-height: 500px;
+    background-color:#2b8bee;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#hero_content a{
+    text-decoration: none;
+    color: white;
+    font-family: 'montserrat',sans serif;
+    font-weight: 400;
+}
+
+#hero_content h1{
+    font-weight: 100;
+}
+
+#hero_content h4 {
+    font-weight: 100;
+}
+
+/* DESIGN FIELD STYLES */
+
+#design_fields {
+    display: flex;
+    margin-top: 50px;
+}
+
+.design_buttons {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 2px 2px 4px grey;
+    margin: 0 10px;
 }
