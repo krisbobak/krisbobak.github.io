@@ -16,7 +16,8 @@ body {
     "nav_area nav_area nav_area"
     "hero_area hero_area hero_area"
     ". design_fields_area ."
-    "footer_area footer_area footer_area";
+    ". check_out_area ."
+    ". footer_area .";
 }
 
 nav{
@@ -31,9 +32,13 @@ nav{
     grid-area: design_fields_area;
 }
 
+#check_out_work{
+    grid-area: check_out_area;
+}
 footer{
     grid-area: footer_area;
 }
+
 
 /* NAV/FOOTER */
 nav{
@@ -61,17 +66,34 @@ nav{
     margin: 0 24px;
 }
 footer {
-    margin: 0 24px;
+    margin: 48px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer_nav {
     display: flex;
-    list-style-type: none; 
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .nav_footer {
     list-style-type: none;
     display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.nav_footer a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer_logo{
+    text-align: center;
 }
 
 /* TEXT STYLES */
@@ -81,7 +103,6 @@ nav a {
 }
 
 /* HERO STYLES */
-
 #hero {
     min-height: 500px;
     background-color:#2b8bee;
@@ -102,11 +123,11 @@ nav a {
     text-decoration: none;
     color: white;
     font-family: 'montserrat',sans serif;
-    font-weight: 400;
 }
 
 #hero_content h1{
     font-weight: 100;
+    font-size: 48px;
 }
 
 #hero_content h4 {
@@ -123,7 +144,68 @@ nav a {
 .design_buttons {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     width: 300px;
-    box-shadow: 2px 2px 4px grey;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
     margin: 0 10px;
+}
+
+.design_buttons a{
+    justify-content: flex-end;
+}
+
+.design_buttons h3{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.design_buttons p{
+    margin: 0 15px;
+}
+
+.design_button_nav {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2b8bee;
+    border-radius: 5px;
+    margin: 20px 60px;
+    padding: 8px;
+    justify-content: flex-end;
+}
+
+/* CHECK OUT MY WORK */
+#check_out_work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 24px;
+}
+
+#check_out_work h1{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+}
+
+#check_out_work h4{
+    margin-top: 0px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+#have_a_look_button{
+    text-decoration: none;
+    background-color: #2b8bee;
+    color: white;
+    max-width: 150px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin: 15px;
 }
