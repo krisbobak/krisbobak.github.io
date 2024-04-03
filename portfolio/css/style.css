@@ -144,8 +144,9 @@ nav a {
 
 .design_buttons {
     display: flex;
+    flex:1;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 300px;
     box-shadow: 2px 2px 5px grey;
     border-radius: 10px;
@@ -154,6 +155,7 @@ nav a {
 
 .design_buttons a{
     justify-content: flex-end;
+    display: inline-block;
 }
 
 .design_buttons h3{
